@@ -1,0 +1,37 @@
+{
+  "name": "Dujiao-Next Development",
+
+  "dockerComposeFile": "docker-compose.yml",
+
+  "service": "app",
+
+  "workspaceFolder": "/workspaces/dujiao-next",
+
+  "shutdownAction": "stopCompose",
+
+  "forwardPorts": [
+    8080,
+    5173,
+    5174
+  ],
+
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "24"
+    }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go",
+        "Vue.volar",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  },
+
+  "postCreateCommand": "corepack enable && corepack prepare pnpm@10.34.3 --activate && go mod download",
+
+  "postAttachCommand": "bash .devcontainer/start-dev.sh"
+}

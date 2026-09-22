@@ -1,0 +1,27 @@
+services:
+
+  app:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+
+    volumes:
+      - ..:/workspaces/dujiao-next:cached
+
+    working_dir: /workspaces/dujiao-next
+
+    command: sleep infinity
+
+    ports:
+      - "8080:8080"
+      - "5173:5173"
+      - "5174:5174"
+
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:7-alpine
+
+    ports:
+      - "6379:6379"
