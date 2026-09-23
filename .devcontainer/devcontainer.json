@@ -33,5 +33,5 @@
 
   "postCreateCommand": "corepack enable && corepack prepare pnpm@10.34.3 --activate && go mod download",
 
-  "postAttachCommand": "bash .devcontainer/start-dev.sh"
+  "postStartCommand": "bash .devcontainer/start-dev.sh"
 }
