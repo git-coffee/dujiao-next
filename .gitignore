@@ -8,6 +8,8 @@ uploads
 .env
 .DS_Store
 node_modules/
+# pnpm 全局内容寻址存储缓存（构建缓存，随依赖安装变化，不入库）
+.pnpm-store/
 # Added by goreleaser init:
 dist/
 
@@ -22,3 +24,6 @@ internal/web/dist/
 # Agents 配置
 .agents/
 skills-lock.json
+
+# AI 工具运行数据（本地缓存/截图，不入库）
+.workbuddy-ai/

@@ -75,6 +75,99 @@
       "payWechat": "微信"
     }
   },
+
+  "atlas": {
+      "detail": {
+        "tips": "请遵守所在国家/地区法律法规及相关平台规则，违规用途后果自负。",
+        "specTitle": "规格",
+        "selectSku": "请先选择规格",
+        "price": "价格",
+        "desc": "商品说明",
+        "noDesc": "该商品暂无说明",
+        "badge": {
+          "official": "官方渠道",
+          "officialSub": "正规来源可查",
+          "instant": "极速发货",
+          "instantSub": "最快即时交付",
+          "after": "售后无忧",
+          "afterSub": "问题及时响应"
+        }
+      },
+      "brand": {
+        "sub": "官方商店"
+      },
+      "nav": {
+        "affiliate": "推广合作",
+        "loginOrRegister": "登录 / 注册",
+        "hot": "AI 智能"
+      },
+      "footer": {
+        "tagline": "面向个人与团队的账号与订阅服务，即时交付。",
+        "shop": "商品",
+        "account": "账户",
+        "support": "支持",
+        "builtOn": "本站为测试环境"
+      },
+      "section": {
+        "more": "发现更多"
+      },
+      "product": {
+        "from": "起"
+      },
+      "notice": {
+        "text": "请通过本站官方域名访问，注意甄别仿冒站点，保护账户与资金安全。",
+        "close": "关闭"
+      },
+      "search": {
+        "placeholder": "搜索"
+      },
+      "service": {
+        "online": "在线客服",
+        "offline": "客服尚未配置，请在站点设置里填写联系方式"
+      },
+      "appfloat": {
+        "desc": "下载官方 App，享优惠低价",
+        "cta": "下载 App",
+        "close": "关闭",
+        "noApp": "App 下载地址未配置"
+      },
+      "banner": {
+        "title": "全量商品 即刻选购",
+        "cta": "立即选购"
+      },
+      "reco": {
+        "kicker": "推荐",
+        "cta": "立即查看"
+      },
+      "sidebar": {
+        "recommend": "推荐"
+      },
+      "home": {
+        "resultCount": "共 {count} 件商品",
+        "clearFilter": "清除筛选",
+        "searchResult": "“{keyword}” 的搜索结果",
+        "resultCount": "共 {count} 件商品",
+        "clearFilter": "清除筛选",
+        "searchResult": "“{keyword}” 的搜索结果",
+        "heroTagline": "账号 · 订阅 · 礼品卡，一站备齐",
+        "hot": "热门商品",
+        "hotSub": "平台最受欢迎产品",
+        "categories": "全部分类",
+        "categoriesSub": "按用途快速找到所需",
+        "viewAll": "查看全部商品",
+        "trust": {
+          "fast": "即时交货",
+          "fastSub": "发货时间少于 5 分钟",
+          "global": "被数百万人信任",
+          "globalSub": "全球超一百万用户",
+          "secure": "支付安全快捷",
+          "secureSub": "官方渠道付款",
+          "service": "24 小时在线服务",
+          "serviceSub": "即时响应 售后无忧"
+        }
+      }
+    },
+
   "breadcrumb": {
     "label": "面包屑导航",
     "back": "返回{name}"

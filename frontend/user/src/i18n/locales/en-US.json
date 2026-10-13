@@ -75,6 +75,96 @@
       "payWechat": "WeChat"
     }
   },
+
+  "atlas": {
+      "detail": {
+        "tips": "Please follow the laws and platform rules that apply to you. Misuse is your own responsibility.",
+        "specTitle": "Options",
+        "selectSku": "Select an option first",
+        "price": "Price",
+        "desc": "Description",
+        "noDesc": "No description for this product yet",
+        "badge": {
+          "official": "Official source",
+          "officialSub": "Traceable supply",
+          "instant": "Instant delivery",
+          "instantSub": "Delivered as fast as possible",
+          "after": "After-sales",
+          "afterSub": "We respond promptly"
+        }
+      },
+      "brand": {
+        "sub": "Official Store"
+      },
+      "nav": {
+        "affiliate": "Affiliate",
+        "loginOrRegister": "Sign in / Register",
+        "hot": "AI Picks"
+      },
+      "footer": {
+        "tagline": "Accounts and subscriptions for individuals and teams, delivered instantly.",
+        "shop": "Shop",
+        "account": "Account",
+        "support": "Support",
+        "builtOn": "Test environment"
+      },
+      "section": {
+        "more": "View more"
+      },
+      "product": {
+        "from": "from"
+      },
+      "notice": {
+        "text": "Access this site only through its official domain. Beware of look-alike sites.",
+        "close": "Close"
+      },
+      "search": {
+        "placeholder": "Search"
+      },
+      "service": {
+        "online": "Live support",
+        "offline": "Support contact is not configured yet"
+      },
+      "appfloat": {
+        "desc": "Get the app for lower prices",
+        "cta": "Get app",
+        "close": "Close",
+        "noApp": "App download URL is not configured"
+      },
+      "banner": {
+        "title": "Everything in stock — shop now",
+        "cta": "Shop now"
+      },
+      "reco": {
+        "kicker": "Featured",
+        "cta": "Explore"
+      },
+      "sidebar": {
+        "recommend": "Featured"
+      },
+      "home": {
+        "resultCount": "{count} products",
+        "clearFilter": "Clear filter",
+        "searchResult": "Results for “{keyword}”",
+        "heroTagline": "Accounts, subscriptions and gift cards in one place",
+        "hot": "Popular",
+        "hotSub": "Most ordered products",
+        "categories": "All categories",
+        "categoriesSub": "Find what you need by use case",
+        "viewAll": "Browse all products",
+        "trust": {
+          "fast": "Instant delivery",
+          "fastSub": "Delivered in under 5 minutes",
+          "global": "Trusted by millions",
+          "globalSub": "Over one million users",
+          "secure": "Secure payment",
+          "secureSub": "Official payment channels",
+          "service": "24/7 support",
+          "serviceSub": "Fast response, after-sales covered"
+        }
+      }
+    },
+
   "breadcrumb": {
     "label": "Breadcrumb",
     "back": "Back to {name}"

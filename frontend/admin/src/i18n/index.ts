@@ -2931,6 +2931,8 @@ const messages = {
           classicModeDesc: '简洁亮色界面，稳定成熟，平台默认模板',
           vaultMode: '数字保险库',
           vaultModeDesc: '靛蓝暗色科技风，圆体排版，主打数字礼券质感',
+          atlasMode: '浅灰工具风',
+          atlasModeDesc: '浅灰底 + 白卡 + 近黑主按钮 + 单一红强调，小圆角极轻阴影，DIN 系标题',
           layoutTitle: '商品布局',
           layoutSubtitle: '选择经典模板下商品列表的排列方式',
           cardMode: '卡片模式',
@@ -7378,6 +7380,8 @@ const messages = {
           classicModeDesc: '簡潔亮色介面，穩定成熟，平台預設模板',
           vaultMode: '數位保險庫',
           vaultModeDesc: '靛藍暗色科技風，圓體排版，主打數位禮券質感',
+          atlasMode: '淺灰工具風',
+          atlasModeDesc: '淺灰底 + 白卡 + 近黑主按鈕 + 單一紅強調，小圓角極輕陰影，DIN 系標題',
           layoutTitle: '商品佈局',
           layoutSubtitle: '選擇經典模板下商品列表的排列方式',
           cardMode: '卡片模式',
@@ -11825,6 +11829,8 @@ const messages = {
           classicModeDesc: 'Clean light interface, stable and mature — the platform default',
           vaultMode: 'Digital Vault',
           vaultModeDesc: 'Indigo dark-tech look with rounded type, tuned for a digital-voucher feel',
+          atlasMode: 'Light Utility',
+          atlasModeDesc: 'Light-grey base, white cards, near-black primary buttons and a single red accent; small radii and minimal shadows',
           layoutTitle: 'Product Layout',
           layoutSubtitle: 'Choose how the product list is arranged in the classic template',
           cardMode: 'Card Mode',
@@ -13368,5 +13374,9 @@ const i18n = createI18n({
   fallbackLocale: 'zh-CN',
   messages: sanitizeLinkedMessage(messages),
 })
+
+i18n.global.mergeLocaleMessage('zh-CN', { supportDesk: '在线客服' })
+i18n.global.mergeLocaleMessage('zh-TW', { supportDesk: '線上客服' })
+i18n.global.mergeLocaleMessage('en-US', { supportDesk: 'Support desk' })
 
 export default i18n
